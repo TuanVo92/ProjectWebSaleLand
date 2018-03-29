@@ -1,0 +1,580 @@
+﻿@{
+    Layout = "~/Areas/ClientSite/Views/Shared/_Layout.cshtml";
+}
+    <div id="preloader"></div>
+    <!-- Main Slider start -->
+<section class="at-main-slider">
+    <div class="flexslider">
+        <ul class="slides">
+            <li data-thumb="@Url.Content("~/Images/1.jpg")">
+                <img src="@Url.Content("~/Images/1.jpg")" alt="">
+                <p class="flex-caption">
+                    Get your dream home from <span>HOMY</span>
+                </p>
+            </li>
+            <li data-thumb="@Url.Content("~/Images/2.jpg")">
+                <img src="@Url.Content("~/Images/2.jpg")" alt="">
+                <p class="flex-caption">
+                    We know your <span>dreams</span>
+                </p>
+            </li>
+            <li data-thumb="@Url.Content("~/Images/3.jpg")">
+                <img src="@Url.Content("~/Images/3.jpg")" alt="">
+                <p class="flex-caption">
+                    awesome decorated <span>bathroom</span>
+                </p>
+            </li>
+            <li data-thumb="@Url.Content("~/Images/4.jpg")">
+                <img src="@Url.Content("~/Images/4.jpg")" alt="">
+                <p class="flex-caption">Get your <span>dream home</span> today</p>
+            </li>
+            <li data-thumb="@Url.Content("~/Images/5.jpg")">
+                <img src="@Url.Content("~/Images/5.jpg")" alt="">
+                <p class="flex-caption">house <span>interior</span> design ideas</p>
+            </li>
+        </ul>
+    </div>
+</section>
+<!-- Main Slider end -->
+
+    <!-- Main Search start from here -->
+    <section class="main-search-field">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="at-col-default-mar">
+                        <select>
+                            <option value="0" selected>Khu Vực</option>
+                            <option value="1">Alabama</option>
+                            <option value="2">Alaska</option>
+                            <option value="3">California</option>
+                            <option value="4">Colorado</option>
+                            <option value="5">Delaware</option>
+                            <option value="6">District of Columbia</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="at-col-default-mar">
+                        <select class="div-toggle" data-target=".my-info-1">
+                            <option value="0" data-show=".acitveon" selected>Thể loại</option>
+                            <option value="1" data-show=".sale">For Sale</option>
+                            <option value="2" data-show=".rent">For Rent</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="at-col-default-mar">
+                        <div class="at-pricing-range">
+                            <div class="my-info-1">
+                                <h4>Lựa chọn khoảng giá</h4>
+                                <div class="acitveon sale hide">
+                                    <label>Giá : </label>
+                                    <input type="text" class="amount at-input-price" readonly>
+                                    <div class="slider-range"></div>
+                                </div>
+                                <div class="rent hide">
+                                    <label>Giá : </label>
+                                    <input type="text" class="amount-two at-input-price" readonly>
+                                    <div class="slider-range-two"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="at-col-default-mar">
+                        <button class="btn btn-default hvr-bounce-to-right" type="submit">Tìm kiếm</button>
+                    </div>
+                </div>
+            </div>            
+        </div>
+    </section>
+    <!-- Main Search End -->
+    <!-- About start from here -->
+    <section class="at-about-sec">
+        <div class="container">
+            <div class="row animatedParent animateOnce">
+                <div class="col-lg-7 col-md-12">
+                    <div class="at-about-col at-col-default-mar">
+                        <div class="at-about-title">
+                            <h1>Công Ty Phạm Thạch<br> <span>Chích sách</span></h1>
+                            <h6>Quyền lợi</h6>
+                        </div>
+                        <p>PhamThach.com có trách nhiệm chuyển tải thông tin. Chúng tôi không chịu bất kỳ trách nhiệm nào từ các tin này..</p> <br>
+
+                        <p>Thị trường mua bán nhà đất tại Việt Nam luôn diễn ra nhộn nhịp và vô cùng sôi động. Bên cạnh đầu tư vào đất nền, đất thổ cư thì những dự án bất động sản khác như căn hộ chung cư tiềm năng hoặc những căn nhà có mặt bằng đẹp,...</p>
+                    </div>
+                </div>
+                <div class="col-lg-5 hidden-md">
+                    <div class="at-about-col animated fadeInRightShort slow delay-250">
+                        <img src="images/about/1.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About End -->
+    <!-- Call start from here -->
+    <section class="at-Call-sec jarallax at-over-layer-black">
+        <div class="at-Call-both-side clearfix">
+            <div class="at-Call-left">
+                <div class="at-inside-Call">
+                    <h5>Lựa chọn của bạn</h5>
+                    <h2>Văn phòng chúng tôi</h2>
+                </div>
+            </div>
+            <div class="at-Call-right">
+                <div class="at-Call-right-inside">
+                    <h2>Chúng tôi sẵn sàng nhận tất cả cuộc gọi từ phía khách hàng</h2>
+                    <div class="at-short-line"></div>
+                    <h3><span>+0412 001 123</span></h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Call End -->
+    <!-- Property start from here -->
+    <section class="at-property-sec">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="at-sec-title at-sec-title-left">
+                        <h2>Giá trị <span>Trách nhiệm</span></h2>
+                        <div class="at-heading-under-line">
+                            <div class="at-heading-inside-line"></div>
+                        </div>
+                        <p>Cung cấp cho các nhà đầu tư, môi giới và những người đang có nhu cầu về mua bán nhà đất một nơi cung cấp dịch vụ, thông tin đầy đủ và nhanh chóng nhất với hàng ngàn tin đăng bán, rao vặt bất động sản tại Quận 12, TP.HCM được cập nhật mới hàng ngày, thông tin minh bạch và đầy đủ.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row animatedParent animateOnce">
+                <div class="col-md-4 col-sm-6">
+                    <div class="at-property-item at-col-default-mar animated fadeInUpShort slow">
+                        <div class="at-property-img">
+                            <img src="@Url.Content("~/Images/property/1.jpg")" alt="">
+                            <div class="at-property-overlayer"></div>
+                            <a class="btn btn-default at-property-btn" href="/Home/PropertiesDetail" role="button">Chi Tiết</a>
+                            <h4>For Sale</h4>
+                            <h5>$59,999</h5>
+                        </div>
+                        <div class="at-property-dis">
+                            <ul>
+                                <li><i class="fa fa-object-group" aria-hidden="true"></i> 520 sq ft</li>
+                                <li><i class="fa fa-bed" aria-hidden="true"></i> 6</li>
+                                <li><i class="fa fa-bath" aria-hidden="true"></i> 3</li>
+                            </ul>
+                        </div>
+                        <div class="at-property-location">
+                            <h4><i class="fa fa-home" aria-hidden="true"></i><a href="/Home/PropertiesDetail">New Superb Villa</a></h4>
+                            <p><i class="fa fa-map-marker" aria-hidden="true"></i> 123 1st Width Road, , summit, new york</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="at-property-item at-col-default-mar animated fadeInUpShort slow delay-250">
+                        <div class="at-property-img">
+                            <img src="@Url.Content("~/Images/property/2.jpg")" alt="">
+                            <div class="at-property-overlayer"></div>
+                            <a class="btn btn-default at-property-btn" href="/Home/PropertiesDetail" role="button">Chi Tiết</a>
+                            <h4 class="at-bg-black">For Rent</h4>
+                            <h5 class="at-bg-black">$59,999</h5>
+                        </div>
+                        <div class="at-property-dis">
+                            <ul>
+                                <li><i class="fa fa-object-group" aria-hidden="true"></i> 520 sq ft</li>
+                                <li><i class="fa fa-bed" aria-hidden="true"></i> 6</li>
+                                <li><i class="fa fa-bath" aria-hidden="true"></i> 3</li>
+                            </ul>
+                        </div>
+                        <div class="at-property-location">
+                            <h4><i class="fa fa-home" aria-hidden="true"></i><a href="/Home/PropertiesDetail">New Superb Villa</a></h4>
+                            <p><i class="fa fa-map-marker" aria-hidden="true"></i> 123 1st Width Road, , summit, new york</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="at-property-item at-col-default-mar animated fadeInUpShort slow delay-500">
+                        <div class="at-property-img">
+                            <img src="@Url.Content("~/Images/property/2.jpg")" alt="">
+                            <div class="at-property-overlayer"></div>
+                            <a class="btn btn-default at-property-btn" href="/Home/PropertiesDetail" role="button">Chi Tiết</a>
+                            <h4>For Sale</h4>
+                            <h5>$59,999</h5>
+                        </div>
+                        <div class="at-property-dis">
+                            <ul>
+                                <li><i class="fa fa-object-group" aria-hidden="true"></i> 520 sq ft</li>
+                                <li><i class="fa fa-bed" aria-hidden="true"></i> 6</li>
+                                <li><i class="fa fa-bath" aria-hidden="true"></i> 3</li>
+                            </ul>
+                        </div>
+                        <div class="at-property-location">
+                            <h4><i class="fa fa-home" aria-hidden="true"></i><a href="/Home/PropertiesDetail">New Superb Villa</a></h4>
+                            <p><i class="fa fa-map-marker" aria-hidden="true"></i> 123 1st Width Road, , summit, new york</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="at-property-item at-col-default-mar animated fadeInUpShort slow delay-750">
+                        <div class="at-property-img">
+                            <img src="@Url.Content("~/Images/property/4.jpg")" alt="">
+                            <div class="at-property-overlayer"></div>
+                            <a class="btn btn-default at-property-btn" href="/Home/PropertiesDetail" role="button">Chi Tiết</a>
+                            <h4 class="at-bg-black">For Rent</h4>
+                            <h5 class="at-bg-black">$59,999</h5>
+                        </div>
+                        <div class="at-property-dis">
+                            <ul>
+                                <li><i class="fa fa-object-group" aria-hidden="true"></i> 520 sq ft</li>
+                                <li><i class="fa fa-bed" aria-hidden="true"></i> 6</li>
+                                <li><i class="fa fa-bath" aria-hidden="true"></i> 3</li>
+                            </ul>
+                        </div>
+                        <div class="at-property-location">
+                            <h4><i class="fa fa-home" aria-hidden="true"></i><a href="/Home/PropertiesDetail">New Superb Villa</a></h4>
+                            <p><i class="fa fa-map-marker" aria-hidden="true"></i> 123 1st Width Road, , summit, new york</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="at-property-item at-col-default-mar animated fadeInUpShort slow delay-1000">
+                        <div class="at-property-img">
+                            <img src="@Url.Content("~/Images/property/5.jpg")" alt="">
+                            <div class="at-property-overlayer"></div>
+                            <a class="btn btn-default at-property-btn" href="/Home/PropertiesDetail" role="button">Chi Tiết</a>
+                            <h4>For Sale</h4>
+                            <h5>$59,999</h5>
+                        </div>
+                        <div class="at-property-dis">
+                            <ul>
+                                <li><i class="fa fa-object-group" aria-hidden="true"></i> 520 sq ft</li>
+                                <li><i class="fa fa-bed" aria-hidden="true"></i> 6</li>
+                                <li><i class="fa fa-bath" aria-hidden="true"></i> 3</li>
+                            </ul>
+                        </div>
+                        <div class="at-property-location">
+                            <h4><i class="fa fa-home" aria-hidden="true"></i><a href="/Home/PropertiesDetail">New Superb Villa</a></h4>
+                            <p><i class="fa fa-map-marker" aria-hidden="true"></i> 123 1st Width Road, , summit, new york</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="at-property-item at-col-default-mar animated fadeInUpShort slow delay-1250">
+                        <div class="at-property-img">
+                            <img src="@Url.Content("~/Images/property/6.jpg")" alt="">
+                            <div class="at-property-overlayer"></div>
+                            <a class="btn btn-default at-property-btn" href="/Home/PropertiesDetail" role="button">Chi Tiết</a>
+                            <h4 class="at-bg-black">For Rent</h4>
+                            <h5 class="at-bg-black">$59,999</h5>
+                        </div>
+                        <div class="at-property-dis">
+                            <ul>
+                                <li><i class="fa fa-object-group" aria-hidden="true"></i> 520 sq ft</li>
+                                <li><i class="fa fa-bed" aria-hidden="true"></i> 6</li>
+                                <li><i class="fa fa-bath" aria-hidden="true"></i> 3</li>
+                            </ul>
+                        </div>
+                        <div class="at-property-location">
+                            <h4><i class="fa fa-home" aria-hidden="true"></i><a href="/Home/PropertiesDetail">New Superb Villa</a></h4>
+                            <p><i class="fa fa-map-marker" aria-hidden="true"></i> 123 1st Width Road, , summit, new york</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <a class="btn btn-default hvr-bounce-to-right" href="Home/MoreProperties" role="button">Xem Thêm</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Property End -->
+    <!-- Agents start from here -->
+    @*<section class="at-agents-sec">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                    <div class="at-sec-title">
+                        <h2>Our valuable <span>Agents</span></h2>
+                        <div class="at-heading-under-line">
+                            <div class="at-heading-inside-line"></div>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum totam et dolores voluptatem porro tempore temporibus ducimus</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="agent-carousel" data-slick='{"slidesToShow": 4, "slidesToScroll": 1}'>
+                        <div class="at-agent-col">
+                            <div class="at-agent-img">
+                                <img src="images/agents/1.png" alt="">
+                                <div class="at-agent-social">
+                                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-vimeo" aria-hidden="true"></i></a>
+                                    <div class="at-agent-call">
+                                        <p>+101 4326 0055</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="at-agent-info">
+                                <h4><a href="agents-details.html">Martin Guptil</a></h4>
+                                <p>sales executive</p>
+                            </div>
+                        </div>
+                        <div class="at-agent-col">
+                            <div class="at-agent-img">
+                                <img src="images/agents/2.png" alt="">
+                                <div class="at-agent-social">
+                                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-vimeo" aria-hidden="true"></i></a>
+                                    <div class="at-agent-call">
+                                        <p>+101 4326 0055</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="at-agent-info">
+                                <h4><a href="agents-details.html">Jesica Mile</a></h4>
+                                <p>sales executive</p>
+                            </div>
+                        </div>
+                        <div class="at-agent-col">
+                            <div class="at-agent-img">
+                                <img src="images/agents/3.png" alt="">
+                                <div class="at-agent-social">
+                                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-vimeo" aria-hidden="true"></i></a>
+                                    <div class="at-agent-call">
+                                        <p>+101 4326 0055</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="at-agent-info">
+                                <h4><a href="agents-details.html">Thomas Jons</a></h4>
+                                <p>sales executive</p>
+                            </div>
+                        </div>
+                        <div class="at-agent-col">
+                            <div class="at-agent-img">
+                                <img src="images/agents/4.png" alt="">
+                                <div class="at-agent-social">
+                                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-vimeo" aria-hidden="true"></i></a>
+                                    <div class="at-agent-call">
+                                        <p>+101 4326 0055</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="at-agent-info">
+                                <h4><a href="agents-details.html">Cris Jordan</a></h4>
+                                <p>sales executive</p>
+                            </div>
+                        </div>
+                        <div class="at-agent-col">
+                            <div class="at-agent-img">
+                                <img src="images/agents/5.png" alt="">
+                                <div class="at-agent-social">
+                                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-vimeo" aria-hidden="true"></i></a>
+                                    <div class="at-agent-call">
+                                        <p>+101 4326 0055</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="at-agent-info">
+                                <h4><a href="agents-details.html">Marri Guptil</a></h4>
+                                <p>sales executive</p>
+                            </div>
+                        </div>
+                        <div class="at-agent-col">
+                            <div class="at-agent-img">
+                                <img src="images/agents/6.png" alt="">
+                                <div class="at-agent-social">
+                                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-vimeo" aria-hidden="true"></i></a>
+                                    <div class="at-agent-call">
+                                        <p>+101 4326 0055</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="at-agent-info">
+                                <h4><a href="agents-details.html">Martin Mozina</a></h4>
+                                <p>sales executive</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>*@
+    <!-- Agents End -->
+    <!-- Blog start from here -->
+    @*<section class="at-blog-sec">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="at-sec-title at-sec-title-left">
+                        <h2>Our <span>Blog</span></h2>
+                        <div class="at-heading-under-line">
+                            <div class="at-heading-inside-line"></div>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum totam et dolores voluptatem porro tempore temporibus ducimus</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row animatedParent animateOnce">
+                <div class="col-md-4 col-sm-6">
+                    <div class="at-blog-box at-col-default-mar animated fadeInUpShort slow">
+                        <div class="at-blog-img">
+                            <img src="images/blog/1.jpg" alt="">
+                            <div class="at-blog-date">
+                                <ul>
+                                    <li>
+                                        <i class="icofont icofont-businessman"></i><a href="#">Mark Jonson</a>
+                                    </li>
+                                    <li>
+                                        <i class="icofont icofont-calendar"></i><a href="#">June 28, 2017</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="at-blog-content">
+                            <h4><a href="blog-details.html">latest design of house</a></h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
+                            <a href="blog-details.html">Read More <i class="zmdi zmdi-long-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="at-blog-box at-col-default-mar animated fadeInUpShort slow delay-250">
+                        <div class="at-blog-img">
+                            <img src="images/blog/2.jpg" alt="">
+                            <div class="at-blog-date">
+                                <ul>
+                                    <li>
+                                        <i class="icofont icofont-businessman"></i><a href="#">Thomas Roy</a>
+                                    </li>
+                                    <li>
+                                        <i class="icofont icofont-calendar"></i><a href="#">June 29, 2017</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="at-blog-content">
+                            <h4><a href="blog-details.html">strong house project</a></h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
+                            <a href="blog-details.html">Read More <i class="zmdi zmdi-long-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="at-blog-box at-col-default-mar animated fadeInUpShort slow delay-500">
+                        <div class="at-blog-img">
+                            <img src="images/blog/3.jpg" alt="">
+                            <div class="at-blog-date">
+                                <ul>
+                                    <li>
+                                        <i class="icofont icofont-businessman"></i><a href="#">Nelson Monika</a>
+                                    </li>
+                                    <li>
+                                        <i class="icofont icofont-calendar"></i><a href="#">June 30, 2017</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="at-blog-content">
+                            <h4><a href="blog-details.html">popular design of house</a></h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
+                            <a href="blog-details.html">Read More <i class="zmdi zmdi-long-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>*@
+    <!-- End -->
+    <!-- Newsletter start from here -->
+    <section class="at-newsletter-sec jarallax at-over-layer-black">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                    <h2>subscribe <span>newsletter</span></h2>
+                    <p>consectetur adipisicing elit. Beatae ducimus in enim quae</p>
+                    <form class="input-group">
+                        <div class="form-group">
+                            <input class="form-control" type="email" placeholder="Enter Your Email">
+                        </div>
+                        <span class="input-group-btn">
+                            <button class="btn btn-default at-sub-btn hvr-bounce-to-right" type="submit">
+                                SUBSCRIBE
+                            </button>
+                        </span>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Newsletter end -->
+    <!-- Brand start from here -->
+    @*<section class="at-brand-sec">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="brand-carousel" data-slick='{"slidesToShow": 6, "slidesToScroll": 1}'>
+                        <div class="item">
+                            <a href="#">
+                                <img src="images/brand/1.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <img src="images/brand/2.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <img src="images/brand/3.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <img src="images/brand/4.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <img src="images/brand/5.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <img src="images/brand/6.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <img src="images/brand/1.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <img src="images/brand/2.jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>*@
+    <!-- Brand End -->
